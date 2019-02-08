@@ -376,10 +376,11 @@
                 $(this).find('i').toggleClass('fa-minus fa-plus');
             });
 
-            $(".faq2").click(function() {
+              $(".faq2").click(function() {
                 $("#faq1").hide();
                 $("#faq2").toggle(500);
-                $(this).find('i').toggleClass('fa-minus fa-plus');
+                $(".faq1").find('i').toggleClass('fa-plus fa-minus');       
+                $(".faq2").find('i').toggleClass('fa-minus fa-plus'); 
             });
 
             $('.web-design').show(500);
