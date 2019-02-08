@@ -368,15 +368,15 @@
                 $(this).find('i').toggleClass('fa-angle-down fa-angle-up');
             });
 
-            $(".faq1").click(function() {
+           $(".faq1").click(function() {
 
                 $("#faq1").toggle(500);
                 $("#faq2").hide();
 
-                $(this).find('i').toggleClass('fa-minus fa-plus');
+                $(".faq1").find('i').toggleClass('fa-minus fa-plus'); 
             });
 
-              $(".faq2").click(function() {
+            $(".faq2").click(function() {
                 $("#faq1").hide();
                 $("#faq2").toggle(500);
                 $(".faq1").find('i').toggleClass('fa-plus fa-minus');       
